@@ -16,7 +16,7 @@ API para gerenciamento de imóveis, com um **CRUD completo** (Create, Read, Upda
 ## 📦 Tecnologias utilizadas
 
 * **Node.js** + **Express**
-* **MySQL** (ou outro banco de dados relacional)
+* **MySQL**
 
 ---
 
@@ -25,8 +25,7 @@ API para gerenciamento de imóveis, com um **CRUD completo** (Create, Read, Upda
 1. Clone este repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/properties-api.git
-   cd properties-api
+   git clone https://github.com/LauraPivoto/welhome-case.git
    ```
 
 2. Instale as dependências:
@@ -47,8 +46,8 @@ API para gerenciamento de imóveis, com um **CRUD completo** (Create, Read, Upda
 
 4. Inicie o servidor:
 
-   ```bash
-   npm start
+   ```powershell
+   npx nodemon index.js
    ```
 
    O servidor rodará em:
