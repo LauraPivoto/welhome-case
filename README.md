@@ -1,7 +1,6 @@
 # 🏡 Properties API - WelHome
 
 API para gerenciamento de imóveis, com um **CRUD completo** (Create, Read, Update, Delete).
-A documentação segue o padrão **OpenAPI 3.0.4** e pode ser visualizada via **Swagger UI**.
 
 ---
 
@@ -17,7 +16,6 @@ A documentação segue o padrão **OpenAPI 3.0.4** e pode ser visualizada via **
 ## 📦 Tecnologias utilizadas
 
 * **Node.js** + **Express**
-* **Swagger (OpenAPI 3.0.4)**
 * **MySQL** (ou outro banco de dados relacional)
 
 ---
@@ -58,15 +56,6 @@ A documentação segue o padrão **OpenAPI 3.0.4** e pode ser visualizada via **
 
 ---
 
-## 📖 Documentação Swagger
-
-Após rodar o servidor, acesse:
-👉 [http://localhost:3000/api-docs](http://localhost:3000/api-docs)
-
-Lá você encontrará a documentação interativa da API.
-
----
-
 ## 🔗 Endpoints principais
 
 ### Listar imóveis
@@ -96,17 +85,3 @@ Lá você encontrará a documentação interativa da API.
   "status": "inactive"
 }
 ```
-
----
-
-## 👩‍💻 Contribuição
-
-Sinta-se à vontade para abrir **issues** e **pull requests**.
-
----
-
-## 📜 Licença
-
-Este projeto é de uso pessoal/educacional.
-
----
