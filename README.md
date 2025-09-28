@@ -34,24 +34,24 @@ API para gerenciamento de imóveis, com um **CRUD completo** (Create, Read, Upda
    npm install
    ```
 
-3. Configure as variáveis de ambiente no arquivo `.env`:
+3. Configure as variáveis de ambiente no arquivo `.env` (na raiz do projeto):
 
    ```env
    DB_HOST=localhost
    DB_USER=root
-   DB_PASSWORD=sua_senha
-   DB_NAME=properties_db
+   DB_PASSWORD="sua_senha"
+   DB_DATABASE=properties_db
    PORT=3000
    ```
 
-4. Inicie o servidor:
+4. Inicie o servidor em ambiente de desenvolvimento:
 
-   ```powershell
+   ```bash
    npx nodemon index.js
    ```
 
    O servidor rodará em:
-   👉 [http://localhost:3000](http://localhost:3000)
+   👉 http://localhost:3000
 
 ---
 
@@ -59,23 +59,31 @@ API para gerenciamento de imóveis, com um **CRUD completo** (Create, Read, Upda
 
 ### Listar imóveis
 
-`GET /properties`
+```http
+GET /properties
+```
 
 ### Criar novo imóvel
 
-`POST /properties`
+```http
+POST /properties
+```
 
 ### Atualizar imóvel
 
-`PUT /properties/{id}`
+```http
+PUT /properties/:id
+```
 
 ### Deletar imóvel
 
-`DELETE /properties/{id}`
+```http
+DELETE /properties/:id
+```
 
 ---
 
-## 📑 Exemplo de esquema (Property)
+## 📑 Exemplo de corpo (Property)
 
 ```json
 {
