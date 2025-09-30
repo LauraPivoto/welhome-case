@@ -17,6 +17,7 @@ API para gerenciamento de imóveis, com um **CRUD completo** (Create, Read, Upda
 
 * **Node.js** + **Express**
 * **MySQL**
+*  **React**
 
 ---
 
