@@ -22,19 +22,20 @@ API para gerenciamento de imóveis, com um **CRUD completo** (Create, Read, Upda
 
 ## ⚙️ Instalação e execução
 
+
 1. Clone este repositório:
 
    ```bash
    git clone https://github.com/LauraPivoto/welhome-case.git
    ```
 
-2. Instale as dependências:
+2. Instale as dependências de todo o projeto, front e back-end(são pastas diferentes):
 
    ```bash
    npm install
    ```
 
-3. Configure as variáveis de ambiente no arquivo `.env` (na raiz do projeto):
+3. Configure as variáveis de ambiente no arquivo `.env` (na raiz do projeto), no código tem o .env.example para ajudar:
 
    ```env
    DB_HOST=localhost
@@ -46,12 +47,17 @@ API para gerenciamento de imóveis, com um **CRUD completo** (Create, Read, Upda
 
 4. Inicie o servidor em ambiente de desenvolvimento:
 
+   Para back-end:
    ```bash
    npx nodemon index.js
    ```
 
-   O servidor rodará em:
-   👉 http://localhost:3000
+   Para o front-end:
+   ```bash
+   npm run dev
+   ```
+
+   👉 Agora é só acessar a página que o terminal indicou!
 
 ---
 
@@ -82,13 +88,3 @@ DELETE /properties/:id
 ```
 
 ---
-
-## 📑 Exemplo de corpo (Property)
-
-```json
-{
-  "title": "Hotel 2",
-  "address": "Endereço 5",
-  "status": "inactive"
-}
-```
